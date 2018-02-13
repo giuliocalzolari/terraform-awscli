@@ -9,4 +9,3 @@ RUN apk add --no-cache \
         awscli
 
 ENTRYPOINT ["/bin/bash"]
-CMD ["/bin/bash"]
