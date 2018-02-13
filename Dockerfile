@@ -7,3 +7,6 @@ RUN apk add --no-cache \
  && pip install --upgrade \
         pip \
         awscli
+
+ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]
